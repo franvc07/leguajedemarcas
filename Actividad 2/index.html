@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-<title>CATÁLOGO DE COMPONENTES</title>
+
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <title>CATALOGO DE COMPONENTES</title>
 </head>
-<h1>CATÁLOGO DE COMPONENTES</h1>
 
 <body>
+    <header>
+        <h1>CATALOGO DE COMPONENTES</h1>
+    </header>
     <nav>
         <ul>
-            <a href="procesadores">Procesadores</a>
-            <a href="/tarjetas gráficas/">Tarjetas gráficas</a>
-            <a href="/placas base/">Placas base</a>
-            <a href="/memoria ram/">Memoria RAM</a>
+            <li><a href="#procesadores">Procesadores</a></li>
+            <li><a href="#tarjetas-graficas">Tarjetas gráficas</a></li>
+            <li><a href="#placas-base">Placas base</a></li>
+            <li><a href="#memoria-ram ">Memoria RAM</a></li>
         </ul>
     </nav>
     <main>
-        <article>
+        <section id="procesadores">
+            <article>
+                <h3>AMD Ryzen 7 9800X3D</h3>
+                <p>Procesador pensado especialmente para videojuegos de alto rendimiento.</p>
+                <mark>Nuevo</mark>
+                <figure>
+                    <img src="C:\Users\Alumno\Desktop\Francisco Verges\LENGUAJE DE MARCAS\Actividad 2/images (3).jpg"
+                        alt="AMD Ryzen 7 9800X3D">
+                </figure>
+                <details>
+                    <summary>Ver características técnicas</summary>
 
-            <section id="procesadores">
-                <h4>AMD Ryzen 7 9800X3D</h4>
-                <p>
-                    <li>8 núcleos y 16 hilos: permite jugar y realizar varias tareas a la vez</li>
-                    <li>Tecnología 3D V-Cache: mejora el rendimiento en muchos videojuegos.</li>
-                    <li>96 MB de caché L3: ayuda a acelerar el acceso a los datos utilizados por los juegos.</li>
-                    <li>Frecuencia máxima de 5,2 GHz: ofrece una gran capacidad de procesamiento.</li>
-                    <li>Socket AM5 y memoria DDR5: compatible con plataformas modernas de AMD.</li>
-                </p>
-
-                <h4>AMD Ryzen 5 9600X</h4>
-                <p>
-                    <li>6 núcleos y 12 hilos: suficiente para jugar y realizar tareas cotidianas.</li>
-                    <li>Frecuencia máxima de 5,4 GHz: permite alcanzar una gran velocidad de procesamiento.</li>
-                    <li>Consumo de 65 W: consume menos energía que el Ryzen 7 9800X3D.</li>
-                    <li>Arquitectura Zen 5: ofrece un buen rendimiento y eficiencia.</li>
-                    <li>Socket AM5 y memoria DDR5: permite montar un equipo moderno y actualizarlo en el futuro.</li>
-                </p>
-
-            </section>
-        </article>
-
-
-
+                    <ul>
+                        <li>8 núcleos y 16 hilos</li>
+                        <li>Frecuencia máxima de 5,2 GHz</li>
+                        <li>Tecnología 3D V-Cache</li>
+                        <li>Tecnología 3D V-Cache</li>
+                        <li>TDP de 120 W</li>
+                        <li>Socket AM5 y arquitectura Zen 5</li>
+                    </ul>
+                </details>
+                <button type="button">Comprar</button>
+            </article>
+            <article>
+                <h3>AMD Ryzen 5 9600X</h3>
+                <p>Procesador equilibrado para jugar y realizar tareas cotidianas.</p>
+                <mark>Nuevo</mark>
+                <figure>
+                    <img src="C:\Users\Alumno\Desktop\Francisco Verges\LENGUAJE DE MARCAS\Actividad 2/61RfWUr4kvL.jpg"
+                        alt="AMD Ryzen 5 9600X">
+                </figure>
+                <details>
+                    <summary>Ver características técnicas</summary>
+                    <li>8 núcleos y 16 hilos</li>
+                    <li>96 MB de caché L3</li>
+                    <li>Frecuencia máxima de 5,2 GHz</li>
+                    <li>Socket AM5</li>
+                </details>
+                <button type="button">Comprar</button>
+            </article>
     </main>
+    <footer>
+        <p><small>© 2026 Tienda Tech - Todos los derechos reservados.</small></p>
+    </footer>
 </body>
-<footer>Realizado por Farncisco Manuel Verges Cadenas</footer>
-
 </html>
